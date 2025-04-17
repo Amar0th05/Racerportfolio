@@ -11,7 +11,7 @@ const HeroSection = () => {
         muted
       ></video>
       <div className="absolute inset-0 flex justify-center items-center z-10">
-        <div className="bg-black/40 p-8 rounded-xl shadow-lg text-center max-w-4xl hover:bg-black/80">
+        <div className="bg-black/40 p-8 rounded-xl shadow-lg text-center max-w-xl md:max-w-4xl hover:bg-black/80">
           <h1 className="text-4xl md:text-6xl font-bold">
             4X NATIONAL CHAMPION
           </h1>
