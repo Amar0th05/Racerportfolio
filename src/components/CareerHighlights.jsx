@@ -58,7 +58,6 @@
 
 // export default CareerHighlights;
 
-
 import { useEffect, useState, useRef } from "react";
 import { useInView } from "framer-motion";
 
