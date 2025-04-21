@@ -102,20 +102,20 @@ const CareerHighlights = () => {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center ">
         <div ref={ref1} className="p-6 border border-gray-700 rounded-xl ">
-          <Counter end={4} inView={inView1} />
+          <Counter end={5} inView={inView1} />
           <p className="mt-2">Years of Experience</p>
         </div>
         <div className="p-6 border border-gray-700 rounded-xl">
-          <Counter end={25} inView={inView1} />
+          <Counter end={80} inView={inView1} />
           <p className="mt-2">Races Completed</p>
         </div>
         <div className="p-6 border border-gray-700 rounded-xl">
-          <Counter end={15} inView={inView1} />
-          <p className="mt-2">Top 3 Finishes</p>
+          <Counter end={40} inView={inView1} />
+          <p className="mt-2">Top 5 Finishes</p>
         </div>
         <div className="p-6 border border-gray-700 rounded-xl">
-          <Counter end={10} inView={inView1} />
-          <p className="mt-2">Championships</p>
+          <Counter end={4} inView={inView1} />
+          <p className="mt-2">Number of Championships</p>
         </div>
       </div>
     </div>
