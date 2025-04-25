@@ -1,7 +1,11 @@
-import { Menu, X, Bike } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { BsYoutube, BsInstagram, BsEnvelope } from "react-icons/bs";
 import { Link as ScrollLink } from "react-scroll";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,20 +42,20 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full z-50 bg-black/40 backdrop-blur-md shadow-md">
-      <div className="flex justify-between items-center px-6 pt-2 pb-9 max-w-7xl mx-auto">
+      <div className="flex justify-between items-center px-6 pt-3 pb-7 max-w-7xl mx-auto">
         {/* Logo and subtitle */}
-        <div className="flex items-center gap-2 leading-tight">
-          <Bike className="text-red-500 w-10 h-10" />
+        <div className="flex items-center leading-tight">
+          {/* <Bike className="text-red-500 w-10 h-10" /> */}
           <div className="flex flex-col">
             <span
               id="span"
-              className="text-1xl md:text-3xl font-extrabold 
+              className="text-3xl md:text-3xl font-extrabold 
     bg-gradient-to-r from-red-600 to-red-400 
     bg-clip-text text-transparent tracking-widest uppercase"
             >
               Navaneeth Kumar
             </span>
-{/* 
+            {/* 
             <span
               key={subtitle}
               className="text-lg text-yellow-500 font-medium transition-opacity duration-500 ease-in-out tracking-wider"
@@ -79,6 +83,18 @@ const Navbar = () => {
             </ScrollLink>
           ))}
 
+          {/* media link */}
+          <a
+            href="https://drive.google.com/drive/folders/1-D_DJcukepdBPxNYKZvwOI_nAOt14Un0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative cursor-pointer transition-all ml-4"
+          >
+            <span className="group-hover:text-red-500 transition duration-300">
+              Media
+            </span>
+            <span className="absolute left-0 bottom-[-2px] w-0 h-[2px] bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
           {/* Icons for YouTube & Instagram */}
           <a
             href="https://youtube.com/@navaneeth.27?si=7gcZYyHLE11e9n9w"
@@ -130,6 +146,18 @@ const Navbar = () => {
               {link}
             </ScrollLink>
           ))}
+          {/* media link */}
+          <a
+            href="https://drive.google.com/drive/folders/1-D_DJcukepdBPxNYKZvwOI_nAOt14Un0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative cursor-pointer transition-all ml-4"
+          >
+            <span className="group-hover:text-red-500 transition duration-300">
+              Media
+            </span>
+            <span className="absolute left-0 bottom-[-2px] w-0 h-[2px] bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+          </a>
 
           {/* Mobile Icons */}
           <div className="flex gap-6 text-2xl text-white mt-2">
@@ -150,19 +178,19 @@ const Navbar = () => {
               <BsInstagram />
             </a>
             <a
-            href="mailto:teamnavaneeth.27@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-125"
-          >
-            <BsEnvelope size={28} />
-          </a>
+              href="mailto:teamnavaneeth.27@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-125"
+            >
+              <BsEnvelope size={28} />
+            </a>
           </div>
         </div>
       )}
 
       {/* Moving Bike Icon */}
-      <Bike
+      {/* <Bike
         className="absolute text-green-500 transition-transform duration-300 bottom-0"
         style={{
           left: `${scrollPercent}%`,
@@ -171,7 +199,19 @@ const Navbar = () => {
           height: "40px",
           bottom: "10px",
         }}
-      />
+      /> */}
+
+<FontAwesomeIcon
+  icon={faMotorcycle}
+  className="absolute text-green-500 transition-transform duration-300"
+  style={{
+    left: `${scrollPercent}%`,
+    transform: "translateX(-50%) rotate(-360deg)",
+    fontSize: "2rem",
+    bottom: "10px",
+  }}
+/>
+
 
       {/* Bottom progress bar */}
       <div className="relative h-[6px] w-full bg-white/10 overflow-hidden">

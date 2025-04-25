@@ -15,7 +15,7 @@ const futuristicSteps = [
   {
     year: 2022,
     title: [
-      "INDMRC (Peostock) 301-400cc",
+      "INMRC (Prostock) 301-400cc",
       "TVS RR310 Cup - Open Class",
       "RoyalEnfield GT Cup championship",
     ],
@@ -24,19 +24,16 @@ const futuristicSteps = [
     year: 2023,
     title: [
       "KTM RC Championship",
-      "IMRC (Round - 5) Peostock 301-400cc",
-      "BRIC Superbike Championship ()Thailand",
+      "IMRC (Round - 5) Prostock 301-400cc",
+      "BRIC International Superbike Championship (Thailand)",
     ],
   },
   {
     year: 2024,
     title: [
-      "Aprl - India's Ultimate motostar - castrol power 1",
-      "June - Indian national motorcycle Racing Championship) 301-400cc ",
-      "July - Indian national motorcycle Racing Championship) 301-400cc ",
-      "Aug - Royal Enfield GT cup 2024(2)",
-      "Oct - Royal Enfield GT cup 2024(3)",
-      "Nov - Royal Enfield GT cup 2024(3)"
+      "India's Ultimate motostar - castrol power 1",
+      "Indian national motorcycle Racing Championship) 301-400cc ",
+      "Royal Enfield GT cup 2024",
     ],
   },
   { year: 2025, title: ["Royal Enfield Flat Track Races"] },
