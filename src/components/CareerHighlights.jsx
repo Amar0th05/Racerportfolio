@@ -19,6 +19,7 @@ const Counter = ({ end, inView }) => {
         } else {
           setCount(Math.ceil(start));
         }
+    
       }, 50);
     } else {
       setCount(0); // Reset when out of view
