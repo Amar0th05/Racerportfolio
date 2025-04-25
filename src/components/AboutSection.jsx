@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Aboutimg from "../assets/aboutimg.jpg";
+import Aboutimg from "../assets/aboutimg2.jpg";
 
 const AboutSection = () => {
   return (
@@ -25,7 +25,7 @@ const AboutSection = () => {
         <motion.img
           src={Aboutimg}
           alt="Navaneeth Kumar"
-          className="rounded-xl w-full md:w-1/2 h-80 object-cover shadow-lg"
+          className="rounded-xl w-full md:w-1/2 h-100 object-cover shadow-lg"
           whileHover={{ scale: 1.05 }}
         />
 

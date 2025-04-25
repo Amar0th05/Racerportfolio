@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const bestHighlights = [
-  "🏁 First Indian to clock fastest Lap time on stock RC390 Indian spec - 1.59.030@MMRT",
-  "🏍️ First Indian to hold fastest lap record time on Indian spec GT650 - 1.16.513@KMS",
+  "🏁 First Indian to clock fastest Lap time on stock RC390 Indian spec - 1.59030 @MMRT",
+  "🏍️ First Indian to hold fastest lap record time on Indian spec GT650 - 1.16.513 @KMS",
   "🏍️ Trained by Ex-MotoGP Racer Jeremy Williams in Austria, Europe",
   "🔥 Trained on KTM RC8C Superbike 1290 & Duke 890 at Slovakia Ring, Austria, Europe",
-  "🎯 Stunt Show Performer @ HeroMotoCorp in 2024 & 2025",
+  "🎯 Stunt Show Performer @HeroMotoCorp in 2024 & 2025",
 ];
 
 const containerVariant = {

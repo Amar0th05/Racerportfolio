@@ -63,7 +63,7 @@ const MediaGallery = ({ onClose }) => {
         × Close
       </button>
 
-      <h2 className="text-white text-3xl font-bold mb-6 uppercase tracking-wide">
+      <h2 className="text-red-500 text-3xl font-bold mb-6 uppercase tracking-wide">
         Media Gallery
       </h2>
 
@@ -78,13 +78,13 @@ const MediaGallery = ({ onClose }) => {
           return (
             <div
               key={index}
-              className="relative group shadow-lg rounded-xl overflow-hidden border-2 border-transparent hover:border-white transition-all duration-300 cursor-pointer"
+              className="relative group shadow-lg rounded-xl overflow-hidden border-2 border-red-500 hover:border-white transition-all duration-300 cursor-pointer"
               onClick={() => window.open(url, "_blank")}
             >
               <img
                 src={img}
                 alt={`Image ${index + 1}`}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
 
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition">

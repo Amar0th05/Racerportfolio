@@ -167,7 +167,7 @@ const Navbar = () => {
       {/* Moving bike icon */}
       <FontAwesomeIcon
         icon={faMotorcycle}
-        className="absolute text-green-500 transition-transform duration-300"
+        className="absolute text-red-500 transition-transform duration-300"
         style={{
           left: `${scrollPercent}%`,
           transform: "translateX(-50%) rotate(-360deg)",
@@ -177,9 +177,9 @@ const Navbar = () => {
       />
 
       {/* Scroll progress bar */}
-      <div className="relative h-[6px] w-full bg-white/10 overflow-hidden">
+      <div className="relative h-[6px] w-full bg-white/10 overflow-hidden mt-2">
         <div
-          className="h-full bg-green-500 transition-all duration-300"
+          className="h-full bg-red-500 transition-all duration-300"
           style={{ width: `${scrollPercent}%` }}
         ></div>
       </div>

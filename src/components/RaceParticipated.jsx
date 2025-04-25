@@ -11,13 +11,20 @@ const futuristicSteps = [
       "INMRC stock upto 165cc - Novice Class",
     ],
   },
-  { year: 2021, title: ["TVS Endurance Cup", "TVS RR310 Cup"] },
+  {
+    year: 2021,
+    title: [
+      "INMRC 301-400cc expert class",
+      "TVS Endurance Cup",
+      "TVS RR310 Cup",
+    ],
+  },
   {
     year: 2022,
     title: [
-      "INMRC (Prostock) 301-400cc",
+      "INMRC (Prostock) 301-400cc expert class",
       "TVS RR310 Cup - Open Class",
-      "RoyalEnfield GT Cup championship",
+      "RoyalEnfield GT Cup championship expert class",
     ],
   },
   {
@@ -34,6 +41,7 @@ const futuristicSteps = [
       "India's Ultimate motostar - castrol power 1",
       "Indian national motorcycle Racing Championship) 301-400cc ",
       "Royal Enfield GT cup 2024",
+      "Harley Davison Flattrack championship,GOA",
     ],
   },
   { year: 2025, title: ["Royal Enfield Flat Track Races"] },
