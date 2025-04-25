@@ -71,9 +71,7 @@ const MediaGallery = ({ onClose }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {images.map((img, index) => {
           const isLastThree = index >= totalImages - 3;
-          const url = isLastThree
-            ? mediaLinks[index - (totalImages - 3)]
-            : img;
+          const url = isLastThree ? mediaLinks[index - (totalImages - 3)] : img;
 
           return (
             <div
@@ -84,7 +82,7 @@ const MediaGallery = ({ onClose }) => {
               <img
                 src={img}
                 alt={`Image ${index + 1}`}
-                className="w-full h-[400px] object-cover transition-transform duration-300 group-hover:scale-105"
+                className="w-full md:h-[400px] h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
 
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition">
