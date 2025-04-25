@@ -1,58 +1,3 @@
-// import { Menu, X } from "lucide-react";
-// import { useState } from "react";
-// import { Link as ScrollLink } from "react-scroll";
-
-// const Navbar = () => {
-//   const [isOpen, setIsOpen] = useState(false);
-//   const links = ["Home", "About", "Career", "Achievements"];
-
-//   return (
-//     <div className="fixed w-full z-50 backdrop-blur-md bg-opacity-30 bg-black shadow-md">
-//       <div className="flex justify-between items-center p-4 max-w-7xl mx-auto">
-//         <h1 className="text-xl font-bold text-red-500">Navaneeth Kumar</h1>
-//         <div className="hidden md:flex gap-6">
-//           {links.map((link) => (
-//             <ScrollLink
-//               key={link}
-//               to={link.toLowerCase()}
-//               smooth={true}
-//               duration={500}
-//               offset={-70}
-//               className="cursor-pointer hover:text-red-500 transition"
-//             >
-//               {link}
-//             </ScrollLink>
-//           ))}
-//         </div>
-//         <div className="md:hidden">
-//           <button onClick={() => setIsOpen(!isOpen)}>
-//             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-//           </button>
-//         </div>
-//       </div>
-//       {isOpen && (
-//         <div className="md:hidden flex flex-col items-center gap-4 pb-4">
-//           {links.map((link) => (
-//             <ScrollLink
-//               key={link}
-//               to={link.toLowerCase()}
-//               smooth={true}
-//               duration={500}
-//               offset={-70}
-//               className="cursor-pointer hover:text-red-500 transition"
-//               onClick={() => setIsOpen(false)}
-//             >
-//               {link}
-//             </ScrollLink>
-//           ))}
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 import { Menu, X, Bike } from "lucide-react";
 import { useState, useEffect } from "react";
 import { BsYoutube, BsInstagram, BsEnvelope } from "react-icons/bs";
@@ -64,20 +9,20 @@ const Navbar = () => {
 
   const links = ["Home", "About", "Career", "Achievements"];
 
-  const phrases = [
-    "This guy is a racer 🏆",
-    "Champion on track 🏁",
-    "Speed is his language 🔥",
-  ];
-  const [subtitleIndex, setSubtitleIndex] = useState(0);
-  const subtitle = phrases[subtitleIndex];
+  // const phrases = [
+  //   "This guy is a racer 🏆",
+  //   "Champion on track 🏁",
+  //   "Speed is his language 🔥",
+  // ];
+  // const [subtitleIndex, setSubtitleIndex] = useState(0);
+  // const subtitle = phrases[subtitleIndex];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSubtitleIndex((prev) => (prev + 1) % phrases.length);
-    }, 2500);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setSubtitleIndex((prev) => (prev + 1) % phrases.length);
+  //   }, 2500);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -106,13 +51,13 @@ const Navbar = () => {
             >
               Navaneeth Kumar
             </span>
-
+{/* 
             <span
               key={subtitle}
               className="text-lg text-yellow-500 font-medium transition-opacity duration-500 ease-in-out tracking-wider"
             >
               {subtitle}
-            </span>
+            </span> */}
           </div>
         </div>
 
