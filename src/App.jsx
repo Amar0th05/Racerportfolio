@@ -5,6 +5,7 @@ import CareerHighlights from './components/CareerHighlights';
 import Achievements from './components/Achievements';
 import RaceParticipated from './components/RaceParticipated';
 import BestOfBests from './components/BestOfBests';
+import Table from './components/Table';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <AboutSection />
       <CareerHighlights />
       <Achievements />
+      <Table/>
       <RaceParticipated/>
       <BestOfBests/>
     </div>
