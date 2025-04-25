@@ -31,8 +31,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center px-6 pt-3 pb-7 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center leading-tight">
-          <div className="flex flex-col">
-            <span
+          <div className="flex flex-col" >
+            <span id="span"
               className="text-3xl md:text-3xl font-extrabold 
                 bg-gradient-to-r from-red-600 to-red-400 
                 bg-clip-text text-transparent tracking-widest uppercase"
