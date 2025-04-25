@@ -65,7 +65,7 @@ const HeroSection = () => {
               onClick={toggleSponsorshipMessage}
               className={`w-65 border border-red-500 text-red-500 px-6 py-2 rounded-xl ${color} hover:bg-red-600 transition text-base md:text-lg text-white`}
             >
-              Contact for Sponsorship
+              Contact To Sponsorship
             </button>
           </div>
 
