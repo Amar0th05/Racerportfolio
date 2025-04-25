@@ -16,7 +16,7 @@ import Img12 from "../assets/Media/12.PNG";
 import Img13 from "../assets/Media/13.PNG";
 import Img14 from "../assets/Media/14.PNG";
 import Img15 from "../assets/Media/15.JPG";
-import Img16 from "../assets/Media/16.jpg";
+import Img16 from "../assets/Media/16.JPG";
 import Img17 from "../assets/Media/17.png";
 import Img18 from "../assets/Media/18.png";
 import Img19 from "../assets/Media/19.png";
