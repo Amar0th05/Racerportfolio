@@ -13,7 +13,7 @@ import Img9 from "../assets/Media/9.PNG";
 import Img10 from "../assets/Media/10.PNG";
 import Img11 from "../assets/Media/11.PNG";
 import Img12 from "../assets/Media/12.PNG";
-import Img13 from "../assets/Media/13.png";
+import Img13 from "../assets/Media/13.PNG";
 import Img14 from "../assets/Media/14.PNG";
 import Img15 from "../assets/Media/15.JPG";
 import Img16 from "../assets/Media/16.jpg";
